@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  lodex-docs:
+    container_name: lodex-docs
+    build:
+      context: .
+    ports:
+      - "8080:8080"
