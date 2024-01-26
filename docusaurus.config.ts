@@ -3,7 +3,7 @@ import type { ThemeConfig, Options } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 
 const config: Config = {
-    title: 'Documentation - LODEX',
+    title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
     favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config: Config = {
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'documentationSidebar',
+                    sidebarId: 'docs',
                     position: 'left',
                     label: 'Documentation',
                 },
