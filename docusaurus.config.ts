@@ -1,8 +1,17 @@
+import docusaurusLunrSearch from 'docusaurus-lunr-search';
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { ThemeConfig, Options } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 
 const config: Config = {
+    plugins: [
+        [
+            docusaurusLunrSearch,
+            {
+                languages: ['fr', 'en'],
+            },
+        ],
+    ],
     title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
     favicon: 'img/favicon.ico',
