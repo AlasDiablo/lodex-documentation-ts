@@ -50,6 +50,8 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     editUrl: 'https://github.com/Inist-CNRS/lodex-doc/tree/master',
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true,
                 },
                 blog: {
                     showReadingTime: true,

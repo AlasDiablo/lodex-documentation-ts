@@ -19,8 +19,15 @@ const sidebars: SidebarsConfig = {
             link: {
                 type: 'generated-index',
             },
-            collapsed: false,
-            items: ['getting-started/creating-an-instance'],
+            items: [
+                'getting-started/creating-an-instance',
+                'getting-started/import-dataset',
+                'getting-started/login-instance-repository',
+                'getting-started/apply-a-model',
+                'getting-started/theme-customisation',
+                'getting-started/navigation',
+                'getting-started/instance-setting',
+            ],
         },
     ],
 };

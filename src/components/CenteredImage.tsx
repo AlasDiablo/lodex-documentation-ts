@@ -15,7 +15,23 @@ const CenteredImage = ({ src, alt }: CenteredImageProps) => {
                 marginRight: 'auto',
             }}
         >
-            <img src={src} alt={alt} />
+            <div
+                style={{
+                    padding: '5px',
+                    paddingBottom: '0',
+                    margin: '5px',
+                    borderRadius: '5px',
+                    border: '1px solid var(--ifm-toc-border-color)',
+                }}
+            >
+                <img
+                    style={{
+                        borderRadius: '5px',
+                    }}
+                    src={src}
+                    alt={alt}
+                />
+            </div>
         </div>
     );
 };

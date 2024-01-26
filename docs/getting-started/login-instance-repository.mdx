@@ -1,0 +1,35 @@
+import CenteredImage from '@site/src/components/CenteredImage';
+
+import telechargement from './assets/telechargement.png';
+import webdav from './assets/Webdav.png';
+import webdav1 from './assets/Webdav_1.png';
+import lecteurReseauE1652785923830 from './assets/lecteur-reseau-e1652785923830.jpg';
+import lecteurReseau2 from './assets/Lecteur-reseau_2.jpg';
+
+# Se connecter aux répertoires d’une instance
+
+L’accès à l’**arborescence des fichiers** de Lodex se fait au moyen du **WebDAV de l’instance**.
+Cet accès doit être paramétré sur un PC en utilisant les paramétres de l’instance
+(voir le paragraphe *“Paramétrer une instance”* dans [Créer une instance lodex](./creating-an-instance.mdx)) :
+
+- Cliquer sur l’icône de téléchargement de fichiers
+
+<CenteredImage src={telechargement} alt="" />
+
+- Cliquer sur « **Upload file with Webdav** »
+
+<CenteredImage src={webdav} alt="" />
+
+- Copier l’**URL Webdav** mentionnée dans le point 2 de la procédure indiquée (par exemple ci-dessous : `http://webdav.corpus.istex.fr/…`)
+
+<CenteredImage src={webdav1} alt="" />
+
+- Ouvrir l’explorateur de fichiers du PC, se positionner sur “**Ce PC**” (1) puis cliquer sur “**Connecter un lecteur réseau**” (2)
+
+<CenteredImage src={lecteurReseauE1652785923830} alt="" />
+
+- Coller l’URL webdav dans la zone “**Dossier**” puis cliquer sur “Terminer”
+
+<CenteredImage src={lecteurReseau2} alt="" />
+
+Le lecteur réseau créé apparaît dans l’explorateur du PC. La connexion à ce lecteur implique de saisir le login et le mot de passe de la machine Lodex utilisée.
