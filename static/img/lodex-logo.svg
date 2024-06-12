@@ -1,0 +1,33 @@
+<svg class="wp-image-3500 style-svg replaced-svg svg-replaced-0" viewBox="0 0 765.92 253.72" id="Calque_1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{clip-path:url(#clippath-2);}.cls-3{fill:#2f2f30;}.cls-4{clip-path:url(#clippath-1);}.cls-5{fill:#7cba43;}.cls-6{clip-path:url(#clippath);}.cls-7{fill:none;}.cls-8{fill:#f07f24;}</style>
+        <clipPath id="clippath">
+            <rect height="253.72" width="765.92" class="cls-7"></rect>
+        </clipPath>
+        <clipPath id="clippath-1">
+            <rect height="253.72" width="765.92" class="cls-7"></rect>
+        </clipPath>
+        <clipPath id="clippath-2">
+            <rect height="253.72" width="765.92" class="cls-7"></rect>
+        </clipPath>
+    </defs>
+    <g class="cls-6">
+        <path d="M765.49,177.02l-37.75-116.19-12.62,4.1,36.39,111.98-192,62.38-40.52-124.7,163.3-53.06-4.1-12.62-167.5,54.43c-4.65,1.51-7.19,6.5-5.68,11.15l43.25,133.11c1.51,4.65,6.5,7.19,11.15,5.68l200.41-65.12c4.65-1.51,7.19-6.5,5.68-11.15" class="cls-3"></path>
+    </g>
+    <rect transform="translate(-7.92 183.27) rotate(-18)" height="22.11" width="88.45" y="105.57" x="530.4" class="cls-5"></rect>
+    <rect transform="translate(-16.55 187.66) rotate(-18)" height="22.11" width="88.45" y="135.01" x="539.97" class="cls-5"></rect>
+    <rect transform="translate(-25.18 192.06) rotate(-18)" height="22.11" width="88.45" y="164.45" x="549.53" class="cls-5"></rect>
+    <rect transform="translate(-33.81 196.46) rotate(-18)" height="22.11" width="88.45" y="193.9" x="559.1" class="cls-5"></rect>
+    <rect transform="translate(-19.99 223.58) rotate(-18)" height="22.11" width="88.45" y="163.83" x="651.63" class="cls-5"></rect>
+    <rect transform="translate(-16.07 209.94) rotate(-18)" height="22.11" width="22.11" y="144.64" x="643.69" class="cls-8"></rect>
+    <rect transform="translate(-3.61 213.06) rotate(-18)" height="22.11" width="22.11" y="106.86" x="659.78" class="cls-8"></rect>
+    <rect transform="translate(8.85 216.18) rotate(-18)" height="22.11" width="22.11" y="69.08" x="675.87" class="cls-8"></rect>
+    <rect transform="translate(26.14 220.75) rotate(-18)" height="44.23" width="44.23" y="5.75" x="687.81" class="cls-8"></rect>
+    <g class="cls-4">
+        <path d="M658.84,218.45c2.23-.71,3.46-3.07,2.76-5.27-.7-2.2-3.08-3.41-5.31-2.69-2.23,.71-3.46,3.07-2.76,5.27,.71,2.2,3.08,3.41,5.31,2.69" class="cls-1"></path>
+    </g>
+    <polygon points="458.22 195.46 492.49 141.34 467.56 141.34 444.49 180.6 420.97 141.34 395.44 141.34 429.33 194.19 393.13 250.48 417.91 250.48 443.29 209.2 468.67 250.48 495.1 250.48 458.22 195.46" class="cls-3"></polygon>
+    <g class="cls-2">
+        <path d="M384.09,231.37h-39.72v-28.15h36.95v-18.96h-36.95v-23.96h39.72v-18.96h-62.86v109.14h62.86v-19.11Zm-142.96,0h-9.93v-71.07h12.32c20.7,0,31.05,11.72,31.05,35.16s-11.15,35.91-33.44,35.91m42.7-75.92c-9.85-9.41-23.69-14.11-41.51-14.11h-34.27v109.14h30.91c19.31,0,34.08-4.78,44.31-14.33,10.23-9.56,15.34-23.32,15.34-41.28,0-16.87-4.93-30.01-14.78-39.42m-171.03,12.73c4.68-6.2,11.62-9.29,20.83-9.29,18.36,0,27.55,12.29,27.55,36.88s-9.23,36.8-27.7,36.8c-9.21,0-16.12-3.09-20.75-9.26-4.63-6.17-6.94-15.35-6.94-27.55s2.34-21.39,7.02-27.58m59.31-14.07c-8.88-9.65-21.71-14.48-38.48-14.48s-29.65,4.79-38.63,14.37c-8.98,9.58-13.47,23.45-13.47,41.62s4.48,32.1,13.44,41.81c8.96,9.7,21.8,14.56,38.52,14.56s29.56-4.85,38.52-14.56c8.96-9.7,13.44-23.59,13.44-41.66s-4.44-32-13.32-41.66m-104.7,96.38v-19.11H23.14v-90.03H0v109.14H67.41Z" class="cls-3"></path>
+    </g>
+</svg>

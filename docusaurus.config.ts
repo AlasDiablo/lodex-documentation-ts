@@ -68,6 +68,11 @@ const config: Config = {
             hideOnScroll: true,
             items: [
                 {
+                    href: 'https://www.lodex.fr/',
+                    position: 'left',
+                    html: '<img src="img/lodex-logo.svg" style="border:none;margin:0;padding:0" width="90" height="30">',
+                },
+                {
                     type: 'docSidebar',
                     sidebarId: 'docs',
                     position: 'left',
