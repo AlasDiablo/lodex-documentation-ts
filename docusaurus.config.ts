@@ -52,6 +52,11 @@ const config: Config = {
                     editUrl: 'https://github.com/Inist-CNRS/lodex-doc/tree/master',
                     showLastUpdateAuthor: false,
                     showLastUpdateTime: true,
+                    versions: {
+                        current: {
+                            label: 'Canary 🚧',
+                        },
+                    },
                 },
                 theme: {
                     customCss: './src/css/custom.css',
