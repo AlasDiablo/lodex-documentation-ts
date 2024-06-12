@@ -53,9 +53,6 @@ const config: Config = {
                     showLastUpdateAuthor: false,
                     showLastUpdateTime: true,
                 },
-                blog: {
-                    showReadingTime: true,
-                },
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -64,6 +61,10 @@ const config: Config = {
     ],
 
     themeConfig: {
+        colorMode: {
+            defaultMode: 'light',
+            disableSwitch: true,
+        },
         navbar: {
             hideOnScroll: true,
             items: [
