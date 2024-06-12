@@ -16,3 +16,7 @@ tab_width = 2
 [*.css]
 indent_size = 2
 tab_width = 2
+
+[*.{md,mdx}]
+indent_size = 2
+tab_width = 2

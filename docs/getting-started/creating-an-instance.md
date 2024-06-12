@@ -1,16 +1,3 @@
-import Admonition from '@theme/Admonition';
-
-import CenteredImage from '@site/src/components/CenteredImage';
-
-import addInstance from './assets/addInstance.png';
-import addInstance2 from './assets/addIsntance_2.png';
-import Actions from './assets/Actions.png';
-import parameters from './assets/parametres-1.png';
-import model from './assets/modele.png';
-import demarrer from './assets/demarrer.png';
-import ouvrire from './assets/Lodex_connexion_2.png';
-import connexion from './assets/Lodex_connexion.jpg';
-
 # Créer une instance Lodex
 
 ## Prérequis
@@ -25,12 +12,12 @@ import connexion from './assets/Lodex_connexion.jpg';
 - Ouvrir l’onglet “Instances”
 - Cliquer sur le bouton \[**Add instance**/**Ajouter une instance**\]
 
-<CenteredImage src={addInstance} alt="Ajoute d'une intance" />
+![Ajoute d'une intance](./assets/addInstance.png)
 
 - Dans la fenêtre qui s’ouvre sélectionner, à l’aide de la liste déroulante du premier champ,
   la version de Lodex à utiliser pour l’instance à créer
 
-<CenteredImage src={addInstance2} alt="Ajoute d'une intance - configuration" />
+![Ajoute d'une intance - configuration](./assets/addIsntance_2.png)
 
 - Saisir un nom technique court, mais significatif dans la première case du *“Technical name”* \<Nom technique\>,
   puis une extension/un complément dans la case du milieu et le chiffre 1 (pour version 1)
@@ -51,36 +38,39 @@ et certaines modifications peuvent ne pas être prises en compte.
 
 Les actions disponibles pour chaque instance sont les suivantes :
 
-<CenteredImage src={Actions} alt="Actions lié a une instance" />
+![Actions lié a une instance](./assets/Actions.png)
 
-<Admonition type="note" title="Paramétrer une instance" icon={<img src={parameters} alt="icon parametres" width="32"/>}>
-    Accéder au fichier de paramétrage de l’instance.
-    A la création d’une instance, un fichier de paramétrage par défaut au format JSON est créé, mais il peut être modifié selon les besoins
-    Voir : [Les paramètres d’une instance](#)
+:::note[Paramétrer une instance]
 
-    (mettre le lien vers l'équivalent de https://www.lodex.fr/docs/partie-2-2/parametres-dune-instance/)
-</Admonition>
+Accéder au fichier de paramétrage de l’instance.
+A la création d’une instance, un fichier de paramétrage par défaut au format JSON est créé, mais il peut être modifié
+selon les besoins
+Voir : [Les paramètres d’une instance](./instance-setting)
 
-<Admonition type="note" title="Ajouté des fichiers css" icon={<img src={model} alt="icon parametres" width="32"/>}>
-    Ajouter des fichiers à l’instance.
-    Cela permet entre autre de personnaliser le thème de son instance,
-    en intégrant des fichiers : police, icônes, fonctions, feuille de style, …
-    Voir : [Le modèle](#)
+:::
 
-    (mettre le lien vers l'équivalent de https://www.lodex.fr/docs/partie-2-2/la-creation-dun-modele/)
-</Admonition>
+:::note[Ajouté des fichiers css]
+
+Ajouter des fichiers à l’instance.
+Cela permet entre autre de personnaliser le thème de son instance,
+en intégrant des fichiers : police, icônes, fonctions, feuille de style, …
+Voir : [Le modèle](#)
+
+(mettre le lien vers l'équivalent de https://www.lodex.fr/docs/partie-2-2/la-creation-dun-modele/)
+
+:::
 
 Si une instance est éteinte, le premier bouton sert à la démarrer :
 
-<CenteredImage src={demarrer} alt="Démarrer une instance" />
+![Démarrer une instance](./assets/demarrer.png)
 
 ## Ouvrir l’instance créée
 
 - Cliquer sur le *“Technical name”* (nom technique) de l’instance dans la liste des instances affichée dans ezMaster
 
-<CenteredImage src={ouvrire} alt="Ouvrir une instance créée" />
+![Ouvrir une instance créée](./assets/Lodex_connexion_2.png)
 
 - Dans l’écran de connexion entrer les identifiants de l’administrateur définis dans le paramétrage de l’instance
 - Cliquer sur \[**CONNEXION**\]
 
-<CenteredImage src={connexion} alt="Se connecté a une instance" />
+![Se connecté a une instance](./assets/Lodex_connexion.jpg)

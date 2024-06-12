@@ -1,9 +1,3 @@
----
-id: introduction
-sidebar_label: Introduction
-slug: /models-introduction
----
-
 # Introduction des modèles
 
 ## Qu’est-ce qu’un modèle ?

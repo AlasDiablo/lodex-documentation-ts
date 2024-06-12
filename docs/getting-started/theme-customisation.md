@@ -1,7 +1,3 @@
-import CenteredImage from '@site/src/components/CenteredImage';
-
-import themeDefaut from './assets/Theme-defaut.jpg';
-
 # Personnaliser le thème
 
 Dans Lodex, le thème sert à définir la charte graphique des pages : couleurs, polices de caractères, icônes, …
@@ -10,7 +6,7 @@ Dans Lodex, le thème sert à définir la charte graphique des pages : couleurs,
 
 Un thème par défaut est intégré à chaque instance créée, aucune action spécifique n’est nécessaire pour l’utiliser.
 
-<CenteredImage src={themeDefaut} alt="" />
+![Theme defaut](./assets/Theme-defaut.jpg)
 
 L’administrateur d’une instance Lodex peut donc choisir de conserver cet affichage graphique proposé par défaut.
 

@@ -1,14 +1,3 @@
-import CenteredImage from '@site/src/components/CenteredImage';
-
-import lodexImporter1 from './assets/Lodex-importer_1.jpg';
-import lodexImporter2 from './assets/Lodex-importer_2.png';
-import lodexImporter6 from './assets/Lodex-importer_6.jpg';
-import lodexImporter5 from './assets/Lodex-importer_5.png';
-import lodexImporter7 from './assets/Lodex-importer_7.jpg';
-import lodexImporter3Bis from './assets/Lodex-importer_3bis.jpg';
-import donnees from './assets/donnees.png';
-import donneesNaviguer from './assets/donnees-naviguer.png';
-
 # Importer des données dans l’instance
 
 L’import d’un jeu de données est la première étape vers la publication de ces données avec Lodex.
@@ -17,7 +6,8 @@ L’import peut intervenir :
 
 - à la création d’une instance
 - pour ajouter de nouvelles données à une instance créée précédemment.
-  Dans ce cas, il est impératif que la structure du nouveau jeu de données soit identique à celle du fichier chargé initialement.
+  Dans ce cas,
+  il est impératif que la structure du nouveau jeu de données soit identique à celle du fichier chargé initialement.
 
 :::warning
 
@@ -32,22 +22,23 @@ Voir : [Les paramètres d’une instance](#)
 
 - Ouvrir le menu d’administration de l’instance, en cliquant sur “Voir plus” (1) puis sur “Admin” (2)
 
-<CenteredImage src={lodexImporter1} alt=""/>
+![](./assets/Lodex-importer_1.jpg)
 
 - Dans l’onglet “Données”, cliquer sur le menu “Ajouter”
 
-<CenteredImage src={lodexImporter2} alt=""/>
+![](./assets/Lodex-importer_2.png)
 
 ### Importer des données depuis un fichier
 
 - La fenêtre qui s’ouvre permet de glisser un fichier ou de parcourir l’arborescence d’un disque pour le sélectionner
-- Une fois le fichier déposé dans la page (1), cliquer sur la loupe (2) permettant d’ouvrir le menu de sélection du loader
+- Une fois le fichier déposé dans la page (1), cliquer sur la loupe (2) permettant d’ouvrir le menu de sélection du
+  loader
 
-<CenteredImage src={lodexImporter6} alt=""/>
+![](./assets/Lodex-importer_6.jpg)
 
 - dans la liste qui s’ouvre, sélectionner un “loader” en cliquant sur la ligne correspondante
 
-<CenteredImage src={lodexImporter5} alt=""/>
+![](./assets/Lodex-importer_5.png)
 
 :::info
 
@@ -58,13 +49,13 @@ Les loaders disponibles pour Lodex sont décrits ici : https://www.lodex.fr/docs
 
 - Une fois le loader choisi, cliquer sur “Importer le fichier”
 
-<CenteredImage src={lodexImporter7} alt=""/>
+![](./assets/Lodex-importer_7.jpg)
 
 ### Importer des données depuis une URL
 
 La fonction “Ajouter depuis une url” permet d’indiquer à Lodex l’URL d’une page où se trouvent les données à importer.
 
-<CenteredImage src={lodexImporter3Bis} alt=""/>
+![](./assets/Lodex-importer_3bis.jpg)
 
 :::warning
 
@@ -80,8 +71,9 @@ Les nouvelles données seront ajoutées **sans écrasement** de celles qui étai
 
 Le jeu de données s’affiche dans le menu “Données”
 
-<CenteredImage src={donnees} alt=""/>
+![](./assets/donnees.png)
 
-La ligne affichée en bas de l’écran données détaille l’état des colonnes chargées et permet la navigation dans le tableau
+La ligne affichée en bas de l’écran données détaille l’état des colonnes chargées et permet la navigation dans le
+tableau
 
-<CenteredImage src={donneesNaviguer} alt=""/>
+![](./assets/donnees-naviguer.png)

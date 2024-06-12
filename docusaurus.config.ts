@@ -14,7 +14,7 @@ const config: Config = {
     ],
     title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/cropped-lodex-180x180.png',
 
     // Set the production url of your site here
     url: 'https://lodex.alasdiablo.fr',
@@ -50,7 +50,7 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     editUrl: 'https://github.com/Inist-CNRS/lodex-doc/tree/master',
-                    showLastUpdateAuthor: true,
+                    showLastUpdateAuthor: false,
                     showLastUpdateTime: true,
                 },
                 blog: {
@@ -64,14 +64,8 @@ const config: Config = {
     ],
 
     themeConfig: {
-        // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'LODEX',
-            logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
-            },
+            hideOnScroll: true,
             items: [
                 {
                     type: 'docSidebar',
@@ -79,7 +73,6 @@ const config: Config = {
                     position: 'left',
                     label: 'Documentation',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     type: 'localeDropdown',
                     position: 'right',
@@ -111,12 +104,8 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
                             label: 'GitHub',
-                            href: 'https://github.com/Inist-CNRS',
+                            href: 'https://github.com/Inist-CNRS/lodex',
                         },
                     ],
                 },

@@ -29,6 +29,24 @@ const sidebars: SidebarsConfig = {
                 'getting-started/instance-setting',
             ],
         },
+        {
+            type: 'category',
+            label: 'Principal fonctionnalités disponible',
+            link: {
+                type: 'generated-index',
+            },
+            items: [
+                {
+                    type: 'category',
+                    label: 'Introduction des modèles',
+                    link: {
+                        type: 'doc',
+                        id: 'main-functionality/models/models-introduction',
+                    },
+                    items: ['main-functionality/models/dataset-preparation'],
+                },
+            ],
+        },
     ],
 };
 

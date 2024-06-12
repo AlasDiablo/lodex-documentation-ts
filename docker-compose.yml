@@ -4,6 +4,9 @@ services:
   lodex-docs:
     container_name: lodex-docs
     build:
+      args:
+        - BUILDKIT_CONTEXT_KEEP_GIT_DIR=true
+        - DOCKER_BUILDKIT=1
       context: .
     ports:
       - "8080:8080"
