@@ -47,7 +47,8 @@ const sidebars: SidebarsConfig = {
                     items: [
                         'main-functionality/models/dataset-preparation',
                         'main-functionality/models/import-model',
-                        'main-functionality/models/creating-and-modifing-model',
+                        'main-functionality/models/creating-and-modifying-model',
+                        'main-functionality/models/sub-resources',
                     ],
                 },
             ],

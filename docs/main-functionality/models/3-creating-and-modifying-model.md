@@ -24,7 +24,7 @@ Le paramétrage de l’affichage se réalise sur les différentes pages accessib
 - ***Pages de ressources (avec ou sans sous-ressources)***
   La page de ressources permet d’accéder au détail des données, de les parcourir par facette, de faire des recherches
   dans ces données. Elle peut être déclinée en sous-ressources (voir le
-  chapitre “[Sous-ressources](https://www.lodex.fr/docs/partie-2-2/les-sous-ressources/)”)
+  chapitre “[Sous-ressources](./4-sub-resources.md)”)
 - ***Page de graphiques***
   La page de graphiques permet la présentation des données sous une forme visuelle facile à appréhender.
 
@@ -59,7 +59,7 @@ données d’origine importées), cliquer sur *“+NOUVEAU CHAMP”*
 ![Nouveau champ](./assets/Nouveau-champ-1.png)
 
 Cette même façon de procéder peut s’appliquer aux “SOUS-RESSOURCES” (détail
-dans “[sous-ressources](https://www.lodex.fr/docs/partie-2-2/les-sous-ressources/)”).
+dans “[sous-ressources](./4-sub-resources.md)”).
 
 Qu’il s’agisse d’un champ créé à partir d’une colonne existante ou à partir d’un nouveau champ, nous allons détailler
 dans le paragraphe suivant les modalités de paramétrage de l’affichage des données.
