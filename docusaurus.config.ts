@@ -66,12 +66,11 @@ const config: Config = {
             disableSwitch: true,
         },
         navbar: {
-            hideOnScroll: true,
             items: [
                 {
                     href: 'https://www.lodex.fr/',
                     position: 'left',
-                    html: '<img src="img/lodex-logo.svg" style="border:none;margin:0;padding:0" width="90" height="30">',
+                    html: '<img src="/img/lodex-logo.svg" style="border:none;margin:0;padding:0" width="90" height="30">',
                 },
                 {
                     type: 'docSidebar',
@@ -79,10 +78,10 @@ const config: Config = {
                     position: 'left',
                     label: 'Documentation',
                 },
-                {
-                    type: 'localeDropdown',
-                    position: 'right',
-                },
+                // {
+                //     type: 'localeDropdown',
+                //     position: 'right',
+                // },
                 {
                     type: 'docsVersionDropdown',
                     position: 'right',
