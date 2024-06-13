@@ -49,6 +49,7 @@ const sidebars: SidebarsConfig = {
                         'main-functionality/models/import-model',
                         'main-functionality/models/creating-and-modifying-model',
                         'main-functionality/models/sub-resources',
+                        'main-functionality/models/ws-enrichment',
                     ],
                 },
             ],
