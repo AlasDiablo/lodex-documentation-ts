@@ -510,14 +510,3 @@ Elle permet la réalisation de tout type de graphiques (graphique à barres, car
 précédemment, la routine utilisée est fonction du graphique.
 
 Pour aller se familiariser avec la syntaxe Vega-lite : https://vega.github.io/vega-lite/docs/
-
-
-
-
-
-
-
-
-
-
-

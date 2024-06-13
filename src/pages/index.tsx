@@ -1,8 +1,20 @@
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-export default function Home(): JSX.Element {
-    const { siteConfig } = useDocusaurusContext();
+const BrowserOnlyRedirect = () => {
     window.location.replace('/docs');
-    return <Layout title={siteConfig.title}></Layout>;
-}
+    return null;
+};
+
+const Home = () => {
+    const { siteConfig } = useDocusaurusContext();
+
+    return (
+        <Layout title={siteConfig.title}>
+            <BrowserOnly>{() => <BrowserOnlyRedirect />}</BrowserOnly>
+        </Layout>
+    );
+};
+
+export default Home;

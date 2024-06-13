@@ -169,6 +169,6 @@ et de relancer une requête à l’API ISTEX grâce à la sauvegarde de son q_id
 
 Mais aussi ajouter des liens vers une documentation, un formulaire de contact,… en utilisant des icônes personnalisées,
 à partir du moment où ces données sont disponibles dans le paramétrage de l’instance et ajoutées **par le WebDav
-(voir** [Se connecter aux répertoires d’une instance](./3-login-instance-repository))
+(voir** [Se connecter aux répertoires d’une instance](./3-login-instance-repository.md))
 
 ![Documentation](./assets/documentation.png)

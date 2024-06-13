@@ -45,7 +45,7 @@ Les actions disponibles pour chaque instance sont les suivantes :
 Accéder au fichier de paramétrage de l’instance.
 A la création d’une instance, un fichier de paramétrage par défaut au format JSON est créé, mais il peut être modifié
 selon les besoins
-Voir : [Les paramètres d’une instance](./8-instance-setting)
+Voir : [Les paramètres d’une instance](./8-instance-setting.md)
 
 :::
 

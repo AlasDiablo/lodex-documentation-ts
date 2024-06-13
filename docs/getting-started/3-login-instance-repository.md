@@ -2,7 +2,7 @@
 
 L’accès à l’**arborescence des fichiers** de Lodex se fait au moyen du **WebDAV de l’instance**.
 Cet accès doit être paramétré sur un PC en utilisant les paramétres de l’instance
-(voir le paragraphe *“Paramétrer une instance”* dans [Créer une instance lodex](./1-creating-an-instance)) :
+(voir le paragraphe *“Paramétrer une instance”* dans [Créer une instance lodex](./1-creating-an-instance.md)) :
 
 - Cliquer sur l’icône de téléchargement de fichiers
 

@@ -49,18 +49,15 @@ const config: Config = {
         [
             docusaurusLunrSearch,
             {
-                languages: ['fr', 'en'],
+                languages: ['fr'],
             },
         ],
     ],
 
     i18n: {
         defaultLocale: 'fr',
-        locales: ['en', 'fr'],
+        locales: ['fr'],
         localeConfigs: {
-            en: {
-                htmlLang: 'en-GB',
-            },
             fr: {
                 htmlLang: 'fr-FR',
             },
