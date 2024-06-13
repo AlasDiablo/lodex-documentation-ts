@@ -77,10 +77,21 @@ const config: Config = {
                     html: '<img src="/img/lodex-logo.svg" style="border:none;margin:0;padding:0" width="90" height="30">',
                 },
                 {
+                    href: '/',
+                    position: 'left',
+                    label: 'Documentation LODEX',
+                },
+                {
                     type: 'docSidebar',
                     sidebarId: 'docs',
                     position: 'left',
-                    label: 'Documentation',
+                    label: 'Utilisateur',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'docsDeveloper',
+                    position: 'left',
+                    label: 'Développeur',
                 },
                 // {
                 //     type: 'localeDropdown',

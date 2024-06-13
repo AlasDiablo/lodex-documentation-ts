@@ -67,6 +67,22 @@ const sidebars: SidebarsConfig = {
             ],
         },
     ],
+    docsDeveloper: [
+        'developer/developer-introduction',
+        'developer/adding-a-new-enricher',
+        'developer/adding-a-new-format',
+        'developer/adding-a-new-graphic',
+        'developer/adding-a-new-loader',
+        'developer/adding-a-new-routine',
+        'developer/adding-new-exporter',
+        'developer/adding-transformers',
+        'developer/configuration',
+        'developer/customizing-the-public-layout',
+        'developer/d3-integration-with-react',
+        'developer/development',
+        'developer/theming-lodex',
+        'developer/troubleshooting',
+    ],
 };
 
 export default sidebars;
