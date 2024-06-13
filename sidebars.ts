@@ -52,6 +52,18 @@ const sidebars: SidebarsConfig = {
                         'main-functionality/models/ws-enrichment',
                     ],
                 },
+                {
+                    type: 'category',
+                    label: 'Les routines et graphes',
+                    link: {
+                        type: 'doc',
+                        id: 'main-functionality/charts-and-routines/charts-and-routines-introduction',
+                    },
+                    items: [
+                        'main-functionality/charts-and-routines/routines',
+                        'main-functionality/charts-and-routines/charts',
+                    ],
+                },
             ],
         },
     ],

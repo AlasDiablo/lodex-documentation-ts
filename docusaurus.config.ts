@@ -1,17 +1,10 @@
 import docusaurusLunrSearch from 'docusaurus-lunr-search';
 import { themes as prismThemes } from 'prism-react-renderer';
+
 import type { ThemeConfig, Options } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 
 const config: Config = {
-    plugins: [
-        [
-            docusaurusLunrSearch,
-            {
-                languages: ['fr', 'en'],
-            },
-        ],
-    ],
     title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
     favicon: 'img/cropped-lodex-180x180.png',
@@ -30,22 +23,9 @@ const config: Config = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
-    i18n: {
-        defaultLocale: 'fr',
-        locales: ['en', 'fr'],
-        localeConfigs: {
-            en: {
-                htmlLang: 'en-GB',
-            },
-            fr: {
-                htmlLang: 'fr-FR',
-            },
-        },
-    },
-
     presets: [
         [
-            'classic',
+            '@docusaurus/preset-classic',
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
@@ -64,6 +44,28 @@ const config: Config = {
             } satisfies Options,
         ],
     ],
+
+    plugins: [
+        [
+            docusaurusLunrSearch,
+            {
+                languages: ['fr', 'en'],
+            },
+        ],
+    ],
+
+    i18n: {
+        defaultLocale: 'fr',
+        locales: ['en', 'fr'],
+        localeConfigs: {
+            en: {
+                htmlLang: 'en-GB',
+            },
+            fr: {
+                htmlLang: 'fr-FR',
+            },
+        },
+    },
 
     themeConfig: {
         colorMode: {
