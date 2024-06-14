@@ -3,7 +3,7 @@
 Les graphiques font partie des formats d’affichage, et se construisent à l’aide des routines.
 
 Le choix du graphique et son paramétrage s’effectuent pendant
-la [création du modèle](../models/3-creating-and-modifying-model.md)
+la [création du modèle](../1-models/3-creating-and-modifying-model.md)
 
 En fonction du graphique choisi, la routine utilisée n’est pas la même, et le paramétrage peut également varier.
 

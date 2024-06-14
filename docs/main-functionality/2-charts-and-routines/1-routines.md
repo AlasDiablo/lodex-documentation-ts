@@ -8,7 +8,7 @@ Les routines sont appelées via l’API web de Lodex, et s’appliquent à un ch
 la routine à utiliser (disons **routine exemple**), il suffit de l’ajouter derrière **/api/run/** pour obtenir la route
 à
 utiliser: **/api/run/routine exemple/** (voir la
-partie [Création ou modification d’un modèle](../models/3-creating-and-modifying-model.md))
+partie [Création ou modification d’un modèle](../1-models/3-creating-and-modifying-model.md))
 
 ## Déclaration des routines dans le fichier de configuration
 
@@ -29,7 +29,7 @@ où :
 - **routine** est la routine utilisée
 - **identifiant** est le code attribué par LODEX au champ représenté
 
-(voir la partie [Création ou modification d’un modèle](../models/3-creating-and-modifying-model.md) )
+(voir la partie [Création ou modification d’un modèle](../1-models/3-creating-and-modifying-model.md) )
 
 Le résultat d’une routine peut être visualisé à partir d’une URL de la forme :
 http://**url-instance**/api/run/**routine**/**identifiant**
@@ -38,7 +38,7 @@ http://**url-instance**/api/run/**routine**/**identifiant**
 - **routine** est la routine utilisée
 - **identifiant** est le code attribué par LODEX au champ représenté
 
-(voir la partie [Création ou modification d’un modèle](../models/3-creating-and-modifying-model.md) )
+(voir la partie [Création ou modification d’un modèle](../1-models/3-creating-and-modifying-model.md) )
 
 Le choix de la routine se fait en fonction du format d’affichage souhaité (type de graphique par exemple). Dans certains
 cas, il est possible de pouvoir utiliser plusieurs routines pour un même format.

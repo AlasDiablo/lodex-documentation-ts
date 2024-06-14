@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 const BrowserOnlyRedirect = () => {
-    window.location.replace('/docs');
+    // window.location.replace('/docs');
     return null;
 };
 

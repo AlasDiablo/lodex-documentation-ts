@@ -4,16 +4,18 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { ThemeConfig, Options } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 
+const BASE_URL = '';
+
 const config: Config = {
     title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
     favicon: 'img/cropped-lodex-180x180.png',
 
     // Set the production url of your site here
-    url: 'https://lodex.alasdiablo.fr',
+    url: 'https://alasdiablo.fr',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: BASE_URL,
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
@@ -70,29 +72,26 @@ const config: Config = {
             disableSwitch: true,
         },
         navbar: {
+            title: 'Documentation',
+            logo: {
+                src: 'img/lodex-logo.svg',
+                width: '90',
+                height: '30',
+            },
             items: [
-                {
-                    href: 'https://www.lodex.fr/',
-                    position: 'left',
-                    html: '<img src="/img/lodex-logo.svg" style="border:none;margin:0;padding:0" width="90" height="30">',
-                },
-                {
-                    href: '/',
-                    position: 'left',
-                    label: 'Documentation LODEX',
-                },
                 {
                     type: 'docSidebar',
                     sidebarId: 'docs',
                     position: 'left',
-                    label: 'Utilisateur',
+                    label: 'Docs générals (lodex.fr)',
                 },
                 {
                     type: 'docSidebar',
                     sidebarId: 'docsDeveloper',
                     position: 'left',
-                    label: 'Développeur',
+                    label: 'Docs du wiki lodex (GitHub)',
                 },
+                // Un comment this to enable locale selector
                 // {
                 //     type: 'localeDropdown',
                 //     position: 'right',

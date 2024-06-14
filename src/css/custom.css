@@ -18,7 +18,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, .1);
 }
 
-img {
+.markdown img {
   display: block;
   padding: 5px;
   margin: 5px auto;
