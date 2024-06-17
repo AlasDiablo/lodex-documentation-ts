@@ -4,18 +4,16 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { ThemeConfig, Options } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 
-const BASE_URL = '';
-
 const config: Config = {
     title: 'LODEX',
     tagline: 'Transformez votre tableur en site web - Turn your spreadsheet into a website',
     favicon: 'img/cropped-lodex-180x180.png',
 
     // Set the production url of your site here
-    url: 'https://alasdiablo.fr',
+    url: 'https://www.lodex.fr/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: BASE_URL,
+    baseUrl: '/docs',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
