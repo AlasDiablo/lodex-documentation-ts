@@ -10,15 +10,15 @@ const config: Config = {
     favicon: 'img/cropped-lodex-180x180.png',
 
     // Set the production url of your site here
-    url: 'https://www.lodex.fr/',
+    url: 'https://docs.alasdiablo.fr/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/docs',
+    baseUrl: '/lodex-documentation-ts',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    // organizationName: 'facebook', // Usually your GitHub org/user name.
-    // projectName: 'docusaurus', // Usually your repo name.
+    // organizationName: 'AlasDiablo', // Usually your GitHub org/user name.
+    // projectName: 'lodex-documentation-ts', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    editUrl: 'https://github.com/Inist-CNRS/lodex-doc/tree/master',
+                    editUrl: 'https://github.com/AlasDiablo/lodex-documentation-ts/tree/master',
                     showLastUpdateAuthor: false,
                     showLastUpdateTime: true,
                     versions: {
